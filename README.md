@@ -39,3 +39,9 @@ A DPMM is essentially a **Bayesian Gaussian Mixture Model (BGMM)** that utilizes
 1.  **Automatic Model Selection:** It eliminates the time-consuming process of manually selecting the cluster count $K$ (or using expensive methods like AIC/BIC), which is its primary strength.
 2.  **Robustness:** The model is less sensitive to initial component estimates since it can dynamically merge or discard components during training.
 3.  **Parsimony:** Given sufficient data, the DPMM naturally favors simpler models (fewer clusters) over overly complex ones due to the properties of the DP.
+
+## Example of Hard Assignment
+![DPMM_Hard](DPMM_Hard.png)
+
+## Example of Soft Assignment
+![DPMM_Soft](DPMM_Soft.png)
