@@ -46,5 +46,5 @@ A DPMM is essentially a **Bayesian Gaussian Mixture Model (BGMM)** that utilizes
 ## Example of Soft Assignment
 ![DPMM_Soft](DPMM_Soft.png)
 
-## Example Melting Curve Clustering
+## Example of Melting Curve Clustering
 ![GT](GT2.png)
